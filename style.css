@@ -30,6 +30,7 @@ body {
     flex-wrap: wrap;
     gap: 80px;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .Subscription-plan__details {
