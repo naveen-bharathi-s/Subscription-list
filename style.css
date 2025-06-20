@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:  serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.heading h1 {
+    background-color: pink;
+    color: black;
+    padding: 5px 200px;
+    margin: 30px 150px;
+}
+
+.Subscription-plan {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: 200px;
+}
+
+.Subscription-plan__details {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 180px;
+    height: 240px;
+
+}
+
+.Subscription-plan__details__price {
+    margin: 5px 0;
+}
+
+.Subscription-plan__details__list {
+    margin: 5px 0;
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 10px;
+    text-align: left;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+}
+.Subscription-plan__details__list .check{
+    background-color: rgb(160, 90, 225);
+    color: black;
+    width: 16px; 
+    height: auto; 
+    border-radius: 20px;
+    margin-right: 2px;
+}
+.Subscription-plan__details__list .wrong{
+    background-color: rgb(91, 37, 142);
+    color: black;
+    width: 14px; 
+    height: auto; 
+    border-radius: 20px;
+    margin-right: 4px;
+}
