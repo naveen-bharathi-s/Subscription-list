@@ -19,7 +19,9 @@ Each subscription plan prominently displays a set of features tailored to its of
 📂 Project Structure
 
 Subscription/
+
 ├── index.html
+
 └── style.css
 
 🚀 Live Demo
