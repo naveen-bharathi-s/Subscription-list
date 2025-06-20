@@ -29,7 +29,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 80px;
-    height: 200px;
+    height: auto;
 }
 
 .Subscription-plan__details {
